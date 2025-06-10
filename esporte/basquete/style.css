@@ -20,15 +20,23 @@ header {
     color: #fff;
     padding: 5px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
-/*menu*/
-.menu {
-    background-color: #f2f2f2;
-    margin: 15px;
+header ul{
+    list-style-type: none;
+    text-align: end;
+    display: flex;
 }
-.menu h1, .menu a, .menu h3 {
-    color: black;
+
+header ul li {
+    padding: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
 }
 /* produtos */
 
